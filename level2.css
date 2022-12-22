@@ -1,0 +1,11 @@
+body{
+	background-image: url("https://cdn.pixabay.com/photo/2021/02/10/04/51/winter-6000878_1280.jpg");
+}
+.player{
+	width: 47px;
+	height: 80px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	
+}

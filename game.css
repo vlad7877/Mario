@@ -1,0 +1,109 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: green;
+}
+.character{
+	position: absolute;
+	width: 47px;
+	height: 80px;
+}
+.obstacle{
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	top: 200px;
+	left: 400px;
+}
+.obstacle2{
+	position: absolute;
+	width: 130px;
+	height: 100px;
+	top: 500px;
+	left: 700px;
+}
+.obstacle3{
+	position: absolute;
+	width: 130px;
+	height: 100px;
+	top: 400px;
+	left: 40px;
+}
+.diamond1{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 400px;
+	left: 600px;
+}
+.diamond2{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 300px;
+	left: 50px;
+}
+.diamond3{
+	position: absolute;
+	width:  100px;
+	height: 100px;
+	top: 50px;
+	left: 600px;
+}
+
+.diamondScore{
+	position: absolute;
+	top: 0px;
+	left: 20px;
+	color: black;
+}
+
+.coin1{
+position: absolute;
+width: 50px;
+height: 50px;
+top: 100px;
+left: 100px;
+}
+
+.coin2{
+position: absolute;
+width: 50px;
+height: 50px;
+top: 0px;
+left: 1200px;
+}
+
+.coin3{
+position: absolute;
+width: 50px;
+height: 50px;
+top: 600px;
+left: 1230px;
+}
+.coinScore{
+	position: absolute;
+	top: 50px;
+	left: 20px;
+	color: black;
+}
+.portal{
+	position: absolute;
+	display: none;
+	top: 500px;
+	left: 500px;
+	width: 80px;
+	height: 130px;
+	animation: portal_animation 2s infinite;
+
+
+
+}
+@keyframes portal_animation{
+	0%{width: 80px;
+	   height: 130px;}
+	50%{width: 100px;
+		height: 150px;}
+	100%{width: 80px;
+		height: 130px}
+}
